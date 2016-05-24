@@ -12,7 +12,7 @@ import android.view.View;
 
 /**
  * Created by Alex on 2016/5/25.
- * 虚线的高度  就是  控件的高度， android:layout_height="不能是 包裹内容  匹配父窗体 | 具体数值"
+ * 虚线的高度就是 控件本身的高度，默认 2dp
  */
 public class DashLineView extends View {
     private Paint paint;
